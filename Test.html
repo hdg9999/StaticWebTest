@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: url(images/bono.png), linear-gradient(to bottom right, red, yellow, green, blue, indigo)/*url(images/commonNURRAMV1.jpg)*/
+            ;
+            background-attachment: fixed;
+        }
+        
+        div {
+            display: inline;
+        }
+        
+        #left {
+            position: fixed;
+            left: 0px;
+            border: 5px inset blue;
+        }
+        
+        #right {
+            position: absolute;
+            left: 200px;
+            border-left: 1px solid black;
+        }
+        
+        .menu {
+            display: inline-block;
+            border: 1px solid transparent;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        
+        .menu:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        #myeye {
+            text-shadow: 2px 5px 6px red;
+            color: yellow;
+        }
+    </style>
+    <title>저세상 홈페이지</title>
+</head>
+
+<body>
+    <h2 id="myeye">저세상 홈페이지</h2>
+    <p><span class="menu"><a href="Test.html" class="menu">홈페이지</a></span>
+        <span class="menu"><a href="sub3.html" class="menu">회원가입</a></span></p>
+    <hr style="background-color: chocolate;" size="5">
+
+    <div id="left">
+        <span style="font-size: 1.2em;"><b>▽Quck Menu</b></span><br>
+        <span class="menu"><a href="#" class="menu">페이지 탑</a></span><br>
+        <span class="menu"><a href="Test.html" class="menu">메인페이지</a></span><br>
+        <span class="menu"><a href="sub3.html" class="menu">회원가입</a></span>
+
+
+    </div>
+
+
+    <div id="right">
+        <iframe src="tableEx.html" frameborder="0 " width="1000" height="800"></iframe>
+    </div>
+
+
+    <div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이상한거</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color:white">2020년 ace직원 매출액</h1>
+    <table>
+        <tr>
+            <!-- 행 합병 colspan -->
+            <th>이름</th>
+            <th colspan="2">판매액</th>
+        </tr>
+        <tr>
+            <!-- 열 합병 rowspan -->
+            <td rowspan="2">강감찬</td>
+            <td>상반기</td>
+            <td>10억</td>
+        </tr>
+        <tr>
+            <td>하반기</td>
+            <td>5억</td>
+        </tr>
+        <tr>
+            <!-- 열 합병 rowspan -->
+            <td rowspan="2">을지문덕</td>
+            <td>상반기</td>
+            <td>1조</td>
+        </tr>
+        <tr>
+            <td>하반기</td>
+            <td>20억</td>
+        </tr>
+        <tr>
+            <!-- 행 합병 colspan -->
+            <th>총계</th>
+            <td colspan="2">1조 35억</td>
+        </tr>
+
+    </table>
+    <h3>멍멍이 보러가기</h3>
+    <a href="./sub/subsub.html" alt="멍멍이보러가기"><img src="images/bt.png" alt=""></a>
+
+</body>
+
+</html>
